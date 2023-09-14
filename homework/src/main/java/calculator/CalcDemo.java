@@ -19,7 +19,7 @@ public class CalcDemo {
         var summator = new Summator();
         long startTime = System.currentTimeMillis();
 
-        for (int idx = 0; idx < counter; idx++) {
+        for (var idx = 0; idx < counter; idx++) {
             var data = new Data(idx);
             summator.calc(data);
 
